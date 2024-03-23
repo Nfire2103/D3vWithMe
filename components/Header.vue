@@ -22,7 +22,7 @@ const links = [
 <template>
   <UHeader :links="links">
     <template #logo>
-      Nuxt UI Pro <UBadge label="SaaS" variant="subtle" class="mb-0.5" />
+      D3vWithMe <UBadge label="WEB3" variant="subtle" class="mb-0.5" />
     </template>
 
     <template #right>
