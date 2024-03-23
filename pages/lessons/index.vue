@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { BlogPost } from '~/types';
 
-const { data: page } = await useAsyncData('blog', () =>
-  queryContent('/blog').findOne(),
+const { data: page } = await useAsyncData('lessons', () =>
+  queryContent('/lessons').findOne(),
 );
 if (!page.value) {
   throw createError({
@@ -13,7 +13,7 @@ if (!page.value) {
 }
 
 const { data: posts } = await useAsyncData('posts', () =>
-  queryContent<BlogPost>('/blog')
+  queryContent<BlogPost>('/lessons')
     .where({ _extension: 'md' })
     .sort({ date: -1 })
     .find(),

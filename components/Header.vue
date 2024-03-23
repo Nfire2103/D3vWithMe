@@ -13,8 +13,8 @@ const links = [
     to: '/pricing',
   },
   {
-    label: 'Blog',
-    to: '/blog',
+    label: 'Lessons',
+    to: '/lessons',
   },
 ];
 </script>

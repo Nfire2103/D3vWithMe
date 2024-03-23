@@ -47,7 +47,7 @@ const links = [
         label: 'Careers',
       },
       {
-        label: 'Blog',
+        label: 'Lessons',
       },
     ],
   },
