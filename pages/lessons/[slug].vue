@@ -18,7 +18,7 @@ if (!post.value) {
 const { data: surround } = await useAsyncData(
   `${route.path}-surround`,
   () =>
-    queryContent('/blog')
+    queryContent('/lessons')
       .where({ _extension: 'md' })
       .without(['body', 'excerpt'])
       .sort({ date: -1 })
@@ -28,6 +28,7 @@ const { data: surround } = await useAsyncData(
 
 const title = post.value.head?.title || post.value.title;
 const description = post.value.head?.description || post.value.description;
+const delivery = post.value.delivery || post.value.head?.delivery;
 
 useSeoMeta({
   title,
@@ -87,6 +88,8 @@ if (post.value.image?.src) {
     <UPage>
       <UPageBody prose>
         <ContentRenderer v-if="post && post.body" :value="post" />
+
+        <FileUpload :is-delivery="delivery" />
 
         <hr v-if="surround?.length" />
 
