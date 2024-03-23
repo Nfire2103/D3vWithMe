@@ -7,7 +7,7 @@
       >You have already submit your project</UButton
     >
 
-    <UModal v-model="isOpen" prevent-close>
+    <UModal v-model="isOpen">
       <UCard>
         <div style="display: flex; justify-content: flex-end">
           <UButton
@@ -18,10 +18,15 @@
             @click="isOpen = false"
           />
         </div>
-        <div class="pb-4 pt-4">
-          <UPage style="font-weight: bold"
-            >Thank you for you participation!</UPage
-          >
+        <div
+          class="p-4"
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          <img
+            src="/check.png"
+            style="height: 50px; width: 50px; margin-bottom: 18px"
+          />
+          <p style="font-weight: bold">Thank you for you participation!</p>
         </div>
       </UCard>
     </UModal>
