@@ -61,7 +61,7 @@ plans:
 logos:
   title: Trusted by the world's best
   icons:
-    - i-simple-icons-amazonaws
+    - i-simple-icons-binance
     - i-simple-icons-heroku
     - i-simple-icons-netlify
     - i-simple-icons-vercel

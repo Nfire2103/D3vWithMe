@@ -2,40 +2,34 @@ title: Nuxt UI Pro - SaaS template
 description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
 navigation: false
 hero:
-  title: Build your SaaS in seconds
-  description: This template demonstrates most of Nuxt UI Pro's components. It's a great starting point to build your own SaaS.
+  title: L3arn to build your project
+  description: Participate in exclusive training programs to master new skills, and then apply these competencies in innovative projects aimed at generating revenue.
   headline:
     label: Made with Nuxt UI Pro
     to: https://ui.nuxt.com/pro
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
-      to: '/signup'
+    - label: Start Lessons
+      to: '/Blog'
       size: xl
       color: black
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-    - label: Use this template
-      icon: i-simple-icons-github
-      size: xl
-      color: gray
-      to: https://github.com/nuxt-ui-pro/saas
-      target: _blank
 sections:
-  - title: The power of our service
-    description: Aliqua labore laboris fugiat. Reprehenderit exercitation eu commodo. Officia nostrud sit et aliqua ea ex sunt minim incididunt sunt.
+  - title: Developers side
+    description: D3vWithMe is a platform offering free and accessible training on various Web3 challenges.
     id: features
     align: left
     features:
-      - name: Easy to use
-        description: Id laborum laboris duis nostrud excepteur ut velit.
+      - name: Easy to start
+        description: No account needed to start learning. Just pick a course and start learning.
         icon: i-heroicons-cog
-      - name: Reliable
-        description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-        icon: i-heroicons-check
-      - name: Secure
-        description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
-        icon: i-heroicons-lock-closed
+      - name: 30+ courses
+        description: Choose from a wide range of courses, exclusively designed with our different partners.
+        icon: i-heroicons-academic-cap
+      - name: Earn Money
+        description: Utilize your new skills by engaging in online hackathons, aiming to create value and secure financial rewards.
+        icon: i-heroicons-currency-dollar
     links:
       - label: Explore components
         to: /pro/components
@@ -44,7 +38,7 @@ sections:
         trailing: true
         size: md
         class: ml-8
-  - title: The speed of our service
+  - title: Partners side
     description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
     align: right
     features:
@@ -88,49 +82,43 @@ features:
       description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
       icon: i-heroicons-chart-bar
 testimonials:
-  headline: Testimonials
-  title: What our customers are saying.
+  headline: Feedbacks
+  title: What our students are saying.
   description: Proident sunt exercitation minim laborum enim laboris labore esse.
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: I recently completed the 'Blockchain Fundamentals and DApp Development' course and it exceeded all my expectations. The curriculum was comprehensive, covering everything from basic blockchain concepts to smart contract development. What truly stood out was the hands-on DApp project. We were tasked with creating a decentralized voting system, which was both challenging and rewarding. The support from instructors and peers was fantastic. I feel well-prepared to dive deeper into the world of blockchain development.
       author:
         name: Rose Roberson
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=1
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: Overall, a great course for intermediate dev looking to navigate the complexities of cryptocurrency investments.
       author:
         name: Chace Rodgers
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=7
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+    - quote: The 'Smart Contract Security' course is a must for any aspiring blockchain developer. The course could improve by including more examples of real-world hacks. Nevertheless, it's an essential course for those serious about building secure blockchain applications.
       author:
         name: Cornelius Sheppard
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=3
           loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+    - quote: Smart Contract Craftsmanship is a gem of a course for intermediate developers looking to hone their skills in smart contract development. The step-by-step approach to building and deploying smart contracts on Ethereum was particularly enlightening. The course's interactive coding sessions and peer reviews provided invaluable hands-on experience. However, a broader range of blockchain platforms covered could enrich the course content further.
       author:
         name: Destinee Woods
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=5
           loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+    - quote: Web3.js Wizardry was a game-changer for me. This course provided a deep dive into Web3.js, equipping me with the skills to interact with the Ethereum blockchain seamlessly. The tutorials were clear, and the coding challenges were both fun and thought-provoking. I only wish there were more advanced modules on optimizing Web3.js interactions for complex DApps.
       author:
         name: Kaleb Mccormick
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=8
           loading: lazy
     - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
       author:
         name: Jazmin Mccall
-        description: CEO at Company
         avatar:
           src: https://i.pravatar.cc/120?img=9
           loading: lazy
