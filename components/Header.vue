@@ -14,7 +14,7 @@ const links = [
   },
   {
     label: 'About',
-    to: '',
+    to: '/pricing',
   },
 ];
 </script>

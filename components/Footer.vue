@@ -41,9 +41,6 @@ const links = [
         label: 'About',
       },
       {
-        label: 'Pricing',
-      },
-      {
         label: 'Careers',
       },
       {
