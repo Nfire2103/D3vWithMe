@@ -7,7 +7,7 @@
       >You have already submit your project</UButton
     >
 
-    <UModal v-model="isOpen">
+    <UModal v-model="isOpen" prevent-close>
       <UCard>
         <div style="display: flex; justify-content: flex-end">
           <UButton
@@ -15,7 +15,7 @@
             variant="ghost"
             icon="i-heroicons-x-mark-20-solid"
             class="-my-1"
-            @click="isOpen = false"
+            @click="closeModal"
           />
         </div>
         <div
@@ -26,6 +26,9 @@
           <p style="font-weight: bold; margin-bottom: 18px">
             Please connect your wallet to submit your project.
           </p>
+          <UButton @click="connectWallet" size="md" color="black"
+            >Connect Wallet</UButton
+          >
         </div>
         <div
           v-else
@@ -51,24 +54,54 @@
 </template>
 
 <script lang="ts">
+import type { WalletClient } from 'viem';
+import { createWalletClient, custom } from 'viem';
+import { mainnet } from 'viem/chains';
+import 'viem/window';
+
 export default {
   data() {
     return {
       isOpen: false,
       isUploaded: false,
+      walletClient: {} as WalletClient,
+      address: '' as `0x${string}`,
     };
   },
   methods: {
-    openFileInput() {
+    async openFileInput() {
+      await this.createWallet();
       this.$refs.fileInput.click();
     },
 
     handleFileUpload(event: any) {
       const file = event.target.files[0];
-      this.isUploaded = true;
       this.isOpen = true;
       console.log('Fichier sélectionné : ', file);
-      // this.uploadFile(file);
+    },
+
+    closeModal() {
+      this.isOpen = false;
+      if (this.address) {
+        this.isUploaded = true;
+      }
+    },
+
+    async createWallet() {
+      this.walletClient = createWalletClient({
+        chain: mainnet,
+        transport: custom(window.ethereum!),
+      });
+      this.address = (await this.walletClient.getAddresses())[0];
+    },
+
+    async connectWallet() {
+      try {
+        await this.walletClient.requestPermissions({ eth_accounts: {} });
+        this.address = (await this.walletClient.getAddresses())[0];
+      } catch (error) {
+        console.log(error);
+      }
     },
   },
   props: {
@@ -78,26 +111,4 @@ export default {
     },
   },
 };
-</script>
-
-<script setup lang="ts">
-import type { WalletClient } from 'viem';
-import { createWalletClient, custom } from 'viem';
-import { mainnet } from 'viem/chains';
-import 'viem/window';
-
-let walletClient: WalletClient;
-let address: `0x${string}`;
-
-async function createWallet() {
-  walletClient = createWalletClient({
-    chain: mainnet,
-    transport: custom(window.ethereum!),
-  });
-  address = (await walletClient.getAddresses())[0];
-}
-
-if (window?.ethereum) {
-  await createWallet();
-}
 </script>
