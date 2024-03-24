@@ -19,6 +19,16 @@
           />
         </div>
         <div
+          v-if="!address"
+          class="p-4"
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          <p style="font-weight: bold; margin-bottom: 18px">
+            Please connect your wallet to submit your project.
+          </p>
+        </div>
+        <div
+          v-else
           class="p-4"
           style="display: flex; flex-direction: column; align-items: center"
         >
@@ -40,7 +50,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   data() {
     return {
@@ -53,7 +63,7 @@ export default {
       this.$refs.fileInput.click();
     },
 
-    handleFileUpload(event) {
+    handleFileUpload(event: any) {
       const file = event.target.files[0];
       this.isUploaded = true;
       this.isOpen = true;
@@ -68,4 +78,26 @@ export default {
     },
   },
 };
+</script>
+
+<script setup lang="ts">
+import type { WalletClient } from 'viem';
+import { createWalletClient, custom } from 'viem';
+import { mainnet } from 'viem/chains';
+import 'viem/window';
+
+let walletClient: WalletClient;
+let address: `0x${string}`;
+
+async function createWallet() {
+  walletClient = createWalletClient({
+    chain: mainnet,
+    transport: custom(window.ethereum!),
+  });
+  address = (await walletClient.getAddresses())[0];
+}
+
+if (window?.ethereum) {
+  await createWallet();
+}
 </script>
