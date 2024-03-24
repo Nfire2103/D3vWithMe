@@ -115,7 +115,7 @@ useSeoMeta({
           date="May 24, 2023"
           orientation="vertical"
           :image="{ src: 'https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/03/Ledger-Live-desktop.webp', alt: 'Nuxt 3.9' }"
-          :authors="[{ name: 'Daniel Roe', avatar: { src: 'https://github.com/danielroe.png', target: '_blank' }, to: 'https://twitter.com/danielcroe' }]"
+          :authors="[{ name: 'Daniel Roe', avatar: { src: 'https://github.com/danielroe.png' }, to: 'https://twitter.com/danielcroe' }]"
           :badge="{ label: 'New Course' }"
         />
       </NuxtLink>
