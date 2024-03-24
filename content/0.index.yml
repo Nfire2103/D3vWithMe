@@ -20,6 +20,7 @@ sections:
     description: D3vWithMe is a platform offering free and accessible training on various Web3 challenges.
     id: features
     align: left
+    image: /Ether.webp
     features:
       - name: Easy to start
         description: No account needed to start learning. Just pick a course and start learning.
@@ -28,7 +29,7 @@ sections:
         description: Choose from a wide range of courses, exclusively designed with our different partners.
         icon: i-heroicons-academic-cap
       - name: Earn Money
-        description: Utilize your new skills by engaging in online hackathons, aiming to create value and secure financial rewards.
+        description: Utilize your new skills by engaging in online formakthons, aiming to create value and secure financial rewards.
         icon: i-heroicons-currency-dollar
     links:
       - label: Explore components
@@ -38,19 +39,20 @@ sections:
         trailing: true
         size: md
         class: ml-8
-  - title: Partners side
-    description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
+  - title: Our courses
+    description: Our courses are designed to help you learn the latest Web3 technologies and apply them in real-world/innovative projects.
     align: right
+    image: /diploma.webp
     features:
-      - name: Fast
-        description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod.
-        icon: i-heroicons-rocket-launch
-      - name: Affordable
-        description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-        icon: i-heroicons-currency-dollar
-      - name: Scalable
-        description: Lorem deserunt et eiusmod. Ea in consectetur minim officia.
-        icon: i-heroicons-chart-bar
+      - name: Quality courses
+        description: Our courses are designed by industry experts in close collaboration with our partners. Are updated regularly to keep up with the latest trends.
+        icon: i-heroicons-check-badge
+      - name: NFT Certificate
+        description: Upon completion of a course, you will receive an NFT certificate that can be used to showcase your skills to potential employers.
+        icon: i-heroicons-trophy
+      - name: Aimed to intermediate/advanced developers
+        description: Engage with developers through online hackathons, and provide them with the opportunity to earn money.
+        icon: i-heroicons-user-plus
     links:
       - label: Learn more
         to: /pro/guide/content
@@ -61,26 +63,26 @@ sections:
         class: ml-8
 features:
   title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Choose our platform for an unparalleled learning experience and partnership opportunity in the dynamic world of Web3. For developers, we offer a unique blend of educational programs on Web3 technologies paired with real-world projects that not only enhance your skills but also offer the chance to earn. It's an ideal ecosystem for both budding and experienced developers to grow, innovate, and monetize their expertise. For Web3 companies looking to amplify their reach and impact, partnering with us means collaborating on specialized courses that spotlight your technologies. This not only drives awareness and adoption among a dedicated community of developers but also positions your brand at the forefront of Web3 education. Join us in shaping the future of blockchain and decentralized technologies by empowering the next wave of developers and innovators.
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
-      icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
-    - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+    - title: Wide range of courses
+      description: More than 30 courses available, covering a wide range of Web3 technologies.
+      icon: i-heroicons-book-open
+    - title: Large community
+      description: Join a vibrant community of 500 developers, 6 partners, and Web3 enthusiasts.
+      icon: i-heroicons-user-group
+    - title: Cash prizes
+      description: Participate in online hackathons and earn money by creating innovate projects.
       icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
-      icon: i-heroicons-chart-bar
+    - title: Hiring opportunities
+      description: Showcase your skills to our partners and get hired for exciting Web3 projects. We rescently placed 10 developers in top Web3 companies.
+      icon: i-heroicons-rocket-launch
+    - title: Free 
+      description: No account needed to start learning. Just pick a course and start learning.
+      icon: i-heroicons-face-smile
+    - title: Good reviews
+      description: Our students love our courses. Check out what they are saying.
+      icon: i-heroicons-chat-bubble-left-right
 testimonials:
   headline: Feedbacks
   title: What our students are saying.
