@@ -35,7 +35,7 @@ useSeoMeta({
     <div class="h-8 w-screen bg-gradient-to-b from-[#11182700] to-white"> </div>
 
     <div class="bg-white">
-      <div class="overflow-hidden mx-auto flex items-center justify-between gap-8">
+      <div class="overflow-hidden mx-auto flex items-center justify-between gap-8 pr-4 pl-4">
         <img loading="lazy" src="https://static.wixstatic.com/media/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png/v1/fill/w_180,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png"  alt="Image 1" />
         <img loading="lazy" src="https://www.adan.eu/wp-content/uploads/2023/06/Kilnlogo-1.png" class="w-44 h-44 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 2" />
         <img loading="lazy" src="https://assets-global.website-files.com/644a3d469d569d0a4b4c96db/64b54ff48756f8103709d5b0_GCAvuNZJETphqTiWysFAWPOlSHP_U1v_wfXWL2ls384.png" class="w-22 h-20 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 3" />
@@ -44,6 +44,23 @@ useSeoMeta({
         <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png" class="w-24 h-24 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
       </div>
     </div>
+
+      <!-- <div class="overflow-hidden mx-auto flex items-center justify-between gap-8 pl-6 pr-6 pt-14 pb-14">
+        <img loading="lazy" src="https://static.wixstatic.com/media/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png/v1/fill/w_180,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png"  alt="Image 1" />
+        <img loading="lazy" src="https://www.adan.eu/wp-content/uploads/2023/06/Kilnlogo-1.png" class="w-60 h-60 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 2" />
+        <img loading="lazy" src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/jgmvzhc0e0r39phkhwf4" class="w-28 h-28 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 3" />
+        <img loading="lazy" src="https://docs.aleph.im/assets/images/square-logo-color.png" class="w-26 h-24 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png" class="w-28 h-28 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
+      </div> -->
+
+      <!-- <div class="overflow-hidden mx-auto flex items-center justify-between gap-8 p-12">
+        <img loading="lazy" src="https://static.wixstatic.com/media/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png/v1/fill/w_180,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/494c9a_c6cf2f03d7c043e3b66bdbd916cb15d6~mv2.png" alt="Image 1" />
+        <img loading="lazy" src="https://www.adan.eu/wp-content/uploads/2023/06/Kilnlogo-1.png" class="w-64 h-64 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 2" />
+        <img loading="lazy" src="https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/jgmvzhc0e0r39phkhwf4" class="w-28 h-28 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 3" />
+        <img loading="lazy" src="https://docs.aleph.im/assets/images/square-logo-color.png" class="w-24 h-24 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
+        <img loading="lazy" src="https://logodownload.org/wp-content/uploads/2022/02/the-sandbox-logo-0.png" class="w-64 h-64 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Binance_Logo.png" class="w-28 h-28 flex-shrink-0 text-gray-500 dark:text-gray-400"  alt="Image 4" />
+      </div> -->
 
     <div class="h-8 w-screen bg-gradient-to-t from-[#11182700] to-white"> </div>
 
