@@ -91,7 +91,7 @@ useSeoMeta({
     </ULandingSection>
 
     <ULandingSection>
-      <NuxtLink href="/lessons/legder" class="btn"> 
+      <NuxtLink href="/lessons/legder" class="btn">
         <UBlogPost
           title="Connect your DApp to Ledger Live"
           description="Discover how to connect your DApp to Ledger Live and interact with smart contracts using wagmi."
