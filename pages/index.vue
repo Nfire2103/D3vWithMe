@@ -108,17 +108,16 @@ useSeoMeta({
     </ULandingSection>
 
     <ULandingSection>
-      <NuxtLink href="/lessons/legder" class="btn">
         <UBlogPost
           title="Connect your DApp to Ledger Live"
           description="Discover how to connect your DApp to Ledger Live and interact with smart contracts using wagmi."
           date="May 24, 2023"
           orientation="vertical"
           :image="{ src: 'https://ledger-wp-website-s3-prd.ledger.com/uploads/2024/03/Ledger-Live-desktop.webp', alt: 'Nuxt 3.9' }"
-          :authors="[{ name: 'Daniel Roe', avatar: { src: 'https://github.com/danielroe.png' }, to: 'https://twitter.com/danielcroe' }]"
+          :authors="[{ name: 'Ismaël Fall', avatar: { src: 'https://github.com/Doozers.png' }, to: 'https://github.com/Doozers' }]"
           :badge="{ label: 'New Course' }"
+          to="/lessons/legder"
         />
-      </NuxtLink>
     </ULandingSection>
 
   </div>
