@@ -1,6 +1,6 @@
 # Projet D3vWithMe
 
-Ce projet a été réalisé dans le cadre de l'hackathon H-W3B 2024 Paris organisé par l'entreprise Sia Partners.
+Ce projet a été réalisé dans le cadre de l'hackathon H-W3B 2024 Paris organisé par l'entreprise Sia Partners. Nous avons obtenu la 4ème place sur 23 équipes.
 
 ## Description
 
